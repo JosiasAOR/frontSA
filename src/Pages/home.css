@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    background-color: #2832f7;
+    height: 100%;
+}
+
+.subcontainer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(187, 187, 187);
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+
+
+
+}
+
+.entrada {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nome {
+    margin-right: 10px;
+}
+
+.diciplina {
+    margin-right: 10px;
+}
+
+input {
+    height: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+.calendario {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 500px;
+}
+.entradas {}
+
+.selecao {
+    background-color: #ffffff;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 550;
+    margin: 10px;
+}
+.dias{
+
+    display: flex;
+    align-items: center;
+}
+button {
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.adicionar {
+    background-color: green;
+    color: white;
+}
+
+.remover {
+    background-color: red;
+    color: white;
+}
